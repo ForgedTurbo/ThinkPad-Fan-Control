@@ -181,7 +181,7 @@
                         <child>
                           <object class="GtkLabel" id="label7">
                             <property name="visible">True</property>
-                            <property name="label" translatable="yes">Use this speed when temperature is critical:</property>
+                            <property name="label" translatable="yes">Fan Speed at Critical Temperature:</property>
                           </object>
                           <packing>
                             <property name="right_attach">2</property>
