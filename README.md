@@ -72,7 +72,6 @@ There are a few steps you need to do, in order to control the fan speed with thi
 After these steps, reboot.
 
 ---------------------
-
 After the reboot, you would need to compile the code.
 
 By the use of this simple command.
