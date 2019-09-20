@@ -23,7 +23,9 @@ On the other hand, I am no where close to being a Professional Dev.
 
 And I only use my Old ThinkPad as an On-the-Go Laptop.
 
-You can ask me questions, but I won't be able to fix problems deeper into Stanko's Code.
+The program is tested on ThinkPad T410s with Fedora 30
+
+You can ask me questions, but I may not be able to fix problems deeper into Stanko's Code.
 
 I made these adjustments because the Original Code as of Sept. 20th 2019 no longer works due to changes in Linux.
 
