@@ -1,42 +1,62 @@
 ThinkPad Fan Control
 ============================
-Version 0.5
+Version 0.5.1
 
-Unfortunately this project is NOT in the active development
+This is a Modified Version of Stanko's ThinkPad-Fan-Control Version 0.5.0
+
+Due to the Changes make to Linux over the 8 years since Stanko created this program
+The program launching script no longer works properly.
+Therefore I make some adjustments and Modifications.
+You can find his original code on GitHub as well. Stanko/ThinkPad-Fan-Control
+The Original README File is available here as OLD-README.md
+
+
+This project is NOT in the Active Development
 ---------------------
+From my understanding, Stanko no longer uses a ThinkPad, therefore discontinued the project.
+On the other hand, I am no where close to being a Professional Dev.
+And I only use my Old ThinkPad as an On-the-Go Laptop.
+You can ask me questions, but I won't be able to fix problems deeper into Stanko's Code.
+I made these adjustments because the Original Code as of Sept. 20th 2019 no longer works due to changes in Linux.
+And I am here to share these changes for people like me who is not an expert at Coding or Linux.
 
-I don't own a ThinkPad laptop for years now, and I don't plan to continue development on this. 
-Feel free to check forks fine people made or issue a pull request. Thank you for your understanding.
+Warranty and Warning Info
+---------------------
+This Program DOES NOT come with a Warranty.
+And it WILL DAMAGE your device if used improperly!!
+Damages may include:
+Overheat Damage due to Incorrect Fan Speed Settings
+Damage to Cooling Fan due to Long Term Full Speed Operation
 
+Use this program at YOUR OWN RISK!!
 
 INTRODUCTION
 ---------------------
-This is program for controlling fans speed on IBM/Lenovo ThinkPads. It is written
-for Linux only. This program is written in C, using GTK GUI.
- 
-You are required to have the Linux kernel with 'thinkpad-acpi' patch.
-You must also enable manual control for your fans. For Linux 2.6.22 and above,
-you must add 'fan_control=1' as a module parameter to 'thinkpad-acpi'.
-For example, in Debian Lenny (and Ubuntu 8.04), you must add the following
-to "/etc/modprobe.d/options":
-        options thinkpad_acpi fan_control=1
-In Ubuntu 9.10 you need to add this line to file "/etc/modprobe.d/alsa-base.conf"
- 
-Having done so, reboot. Now you'll be able to use this program easily.
- 
-I wrote this for my own personal use, and thought that it would be a good idea
-to release it to the world, and hope that it will be useful to someone!
-Feel free to send comments, bug reports or a thanks to the e-mail above.
+This is program for controlling fans speed on IBM/Lenovo ThinkPads.
+It is written for Linux only. This program is written in C, using GTK GUI.
 
-
-COMPILATION
+SETUP
 ---------------------
-You will need GTK development libraries. The Makefile that is available can
-be used like:
+There are a few steps you need to do, in order to control the fan speed with this program.
+
+1. Add the following line to file "/etc/modprobe.d/alsa-base.conf"
+        options thinkpad_acpi fan_control=1
+
+2. Install the GTK Development Libraries
+        yum install libgnomeui-devel
+
+3. Configure to Allow SuperUser GUI Application
+        xhost +local:
+        
+After these steps, reboot.
+
+---------------------
+
+After the reboot, you would need to compile the code.
+By the use of this simple command.
 
     make
 
-There is also a pre-compiled binary available for i386, 32-bit machines.
 
 START-UP
 ---------------------------------
@@ -44,27 +64,28 @@ You must run this program as root, because only root can change the speed of fan
 I personally recommend using "tpfc_start.sh", which will run ThinkPad Fan Control
 with gksu under administrator privileges.
  
-I also made "tpfc_start-up.sh", which I added to my GNOME start-up list.
-Using it will let you run the program when you log on. All you need to do is to
-change two lines in it, path in which ThinkPad Fan Control is located, and sleep
-time - the amount of time the script will wait until launching TPFC.
+I don't understand how to fix "tpfc_start-up.sh" 
+Therefore it would not work for now.
 
-
-USAGE
+How to Use
 --------------------
-The program has two modes - automatic and manual. The manual mode can't be easier
-to use - just choose the speed and click the "Change speed" button.
+The program has two modes - Automatic and Manual.
 
-The automatic mode is a bit more complicated. There are four options you can change:
+Manual Mode is very simple:
+Choose the Fan Speed and Click the "Change Speed" button.
 
-* Sleep time - how often the program will check for the CPUtemperature (default - 120s).
+The Automatic Mode is a bit more complicated.
+
+There are four options you can change:
+
+* Scan Interval - how often the program will check for the CPUtemperature (default - 120s).
 * Critical temperature - the program will speed up the fans when this temperature is reached (default - 55C).
 * Safe temperature - the program will switch the fans to normal when the temperature is lower than this (default - 50C)
 * Fan level speed - the speed of fans when the CPU reaches the critical temperature (default - 7).
  
-If you would like to customise these options, just click the 
-"Change options button"
+If you would like to change the values for these options,
+Click the "Set Options Above" button
 
 
-I hope you enjoy using this :) :D
+I hope you enjoy using this :D
 
