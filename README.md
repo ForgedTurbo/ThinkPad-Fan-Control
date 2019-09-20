@@ -55,14 +55,20 @@ SETUP
 There are a few steps you need to do, in order to control the fan speed with this program.
 
 1. Add the following line to file "/etc/modprobe.d/alsa-base.conf"
+
         options thinkpad_acpi fan_control=1
 
+
 2. Install the GTK Development Libraries
+
         yum install libgnomeui-devel
 
+
 3. Configure to Allow SuperUser GUI Application
+
         xhost +local:
-        
+
+
 After these steps, reboot.
 
 ---------------------
