@@ -1,2 +1,2 @@
 #!/bin/bash
-gksu data/tp_fan_control
+sudo gedit data/tp_fan_control
