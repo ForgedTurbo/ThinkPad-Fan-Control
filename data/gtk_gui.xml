@@ -501,7 +501,7 @@ This is Fan Control Program for IBM/Lenovo ThinkPads</property>
                     <property name="visible">True</property>
                     <property name="can_focus">True</property>
                     <property name="receives_default">True</property>
-                    <property name="label" translatable="yes">Exit Program</property>
+                    <property name="label" translatable="yes">Exit</property>
                   </object>
                   <packing>
                     <property name="position">1</property>
