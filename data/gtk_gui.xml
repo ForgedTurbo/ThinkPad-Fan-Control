@@ -181,7 +181,7 @@
                         <child>
                           <object class="GtkLabel" id="label7">
                             <property name="visible">True</property>
-                            <property name="label" translatable="yes">Use this speed when temperature is critical:</property>
+                            <property name="label" translatable="yes">Fan Speed at Critical Temperature:</property>
                           </object>
                           <packing>
                             <property name="right_attach">2</property>
@@ -235,7 +235,7 @@
                         <child>
                           <object class="GtkLabel" id="label6">
                             <property name="visible">True</property>
-                            <property name="label" translatable="yes">Sleep time:</property>
+                            <property name="label" translatable="yes">Scan Interval:</property>
                           </object>
                           <packing>
                             <property name="right_attach">2</property>
@@ -246,7 +246,7 @@
                         <child>
                           <object class="GtkLabel" id="label5">
                             <property name="visible">True</property>
-                            <property name="label" translatable="yes">Critical temperature:</property>
+                            <property name="label" translatable="yes">Critical Temperature:</property>
                           </object>
                           <packing>
                             <property name="right_attach">2</property>
@@ -259,7 +259,7 @@
                         <child>
                           <object class="GtkLabel" id="label9">
                             <property name="visible">True</property>
-                            <property name="label" translatable="yes">Safe temperature:</property>
+                            <property name="label" translatable="yes">Safe Temperature:</property>
                           </object>
                           <packing>
                             <property name="right_attach">2</property>
@@ -275,7 +275,7 @@
                             <property name="can_focus">True</property>
                             <property name="has_focus">True</property>
                             <property name="receives_default">True</property>
-                            <property name="label" translatable="yes">Change options</property>
+                            <property name="label" translatable="yes">Set Options Above</property>
                           </object>
                           <packing>
                             <property name="left_attach">1</property>
@@ -303,7 +303,7 @@
             <child type="tab">
               <object class="GtkLabel" id="label2">
                 <property name="visible">True</property>
-                <property name="label" translatable="yes">Automatic control</property>
+                <property name="label" translatable="yes">Automatic Control</property>
               </object>
               <packing>
                 <property name="tab_fill">False</property>
@@ -319,7 +319,7 @@
                     <property name="visible">True</property>
                     <property name="can_focus">True</property>
                     <property name="receives_default">True</property>
-                    <property name="label" translatable="yes">Change speed</property>
+                    <property name="label" translatable="yes">Change Speed</property>
                   </object>
                   <packing>
                     <property name="left_attach">2</property>
@@ -331,7 +331,7 @@
                 <child>
                   <object class="GtkLabel" id="label4">
                     <property name="visible">True</property>
-                    <property name="label" translatable="yes">Choose speed:</property>
+                    <property name="label" translatable="yes">Choose Speed:</property>
                   </object>
                   <packing>
                     <property name="y_options">GTK_EXPAND</property>
@@ -363,7 +363,7 @@
             <child type="tab">
               <object class="GtkLabel" id="label3">
                 <property name="visible">True</property>
-                <property name="label" translatable="yes">Manual control</property>
+                <property name="label" translatable="yes">Manual Control</property>
               </object>
               <packing>
                 <property name="position">1</property>
@@ -413,8 +413,9 @@
                     <child>
                       <object class="GtkLabel" id="label1">
                         <property name="visible">True</property>
-                        <property name="label" translatable="yes">V0.5
+                        <property name="label" translatable="yes">V0.5.1
 Written by Stanko Tadi&#x107;
+Modified by ForgedTurbo;
 Copyright &#xA9; 2008 Stanko Tadi&#x107;</property>
                         <property name="justify">GTK_JUSTIFY_CENTER</property>
                       </object>
@@ -475,7 +476,7 @@ Copyright &#xA9; 2008 Stanko Tadi&#x107;</property>
               <object class="GtkLabel" id="log">
                 <property name="visible">True</property>
                 <property name="label" translatable="yes">WELCOME!
-This is fan control program for IBM/Lenovo ThinkPads</property>
+This is Fan Control Program for IBM/Lenovo ThinkPads</property>
                 <property name="justify">GTK_JUSTIFY_CENTER</property>
               </object>
               <packing>
