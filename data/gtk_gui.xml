@@ -143,7 +143,7 @@
                     <child>
                       <object class="GtkLabel" id="optionsLabel">
                         <property name="visible">True</property>
-                        <property name="label" translatable="yes">Current options: 120s - 55°C - 50°C - full-speed</property>
+                        <property name="label" translatable="yes">Current options: 120 - 55 - 50 - full-speed</property>
                       </object>
                     </child>
                     <child>
