@@ -1,2 +1,2 @@
 #!/bin/bash
-sudo gedit data/tp_fan_control
+su -c data/tp_fan_control
