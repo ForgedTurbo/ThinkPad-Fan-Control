@@ -414,7 +414,7 @@
                       <object class="GtkLabel" id="label1">
                         <property name="visible">True</property>
                         <property name="label" translatable="yes">V0.5.1
-Written by Stanko Tadi&#x107;
+Written by Stanko Tadi&#x107;,
 Modified by ForgedTurbo;
 Copyright &#xA9; 2008 Stanko Tadi&#x107;</property>
                         <property name="justify">GTK_JUSTIFY_CENTER</property>
@@ -427,7 +427,7 @@ Copyright &#xA9; 2008 Stanko Tadi&#x107;</property>
                     <child>
                       <object class="GtkLabel" id="label10">
                         <property name="visible">True</property>
-                        <property name="label" translatable="yes">http://stanko.mfhinc.net/projects.php</property>
+                        <property name="label" translatable="yes">https://github.com/ForgedTurbo/ThinkPad-Fan-Control</property>
                       </object>
                       <packing>
                         <property name="position">2</property>
