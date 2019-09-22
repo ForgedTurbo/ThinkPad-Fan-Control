@@ -143,7 +143,7 @@
                     <child>
                       <object class="GtkLabel" id="optionsLabel">
                         <property name="visible">True</property>
-                        <property name="label" translatable="yes">Current options: 120, 55, 50, full-speed</property>
+                        <property name="label" translatable="yes">Current Options: 120s - 55C - 50C - full-speed</property>
                       </object>
                     </child>
                     <child>
@@ -465,7 +465,7 @@ Copyright &#xA9; 2008 Stanko Tadi&#x107;</property>
             <child>
               <object class="GtkLabel" id="level">
                 <property name="visible">True</property>
-                <property name="label" translatable="yes">Fans level - auto</property>
+                <property name="label" translatable="yes">Fans Level - auto</property>
                 <property name="justify">GTK_JUSTIFY_CENTER</property>
               </object>
               <packing>
@@ -493,7 +493,7 @@ This is Fan Control Program for IBM/Lenovo ThinkPads</property>
                     <property name="visible">True</property>
                     <property name="can_focus">True</property>
                     <property name="receives_default">True</property>
-                    <property name="label" translatable="yes">To tray</property>
+                    <property name="label" translatable="yes">Minimize</property>
                   </object>
                 </child>
                 <child>
