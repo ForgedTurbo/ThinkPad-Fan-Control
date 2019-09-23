@@ -46,13 +46,13 @@ Damage to Cooling Fan due to Long Term Full Speed Operation
 
 Use this program at YOUR OWN RISK!!
 
-INTRODUCTION
+Introduction
 ---------------------
 This is program for controlling fans speed on IBM/Lenovo ThinkPads.
 
 It is written for Linux only. This program is written in C, using GTK GUI.
 
-SETUP
+Setup
 ---------------------
 There are a few steps you need to do, in order to control the fan speed with this program.
 
@@ -77,21 +77,29 @@ By the use of this simple command.
     make
 
 
-START-UP
+Start-Up
 ---------------------------------
 You must run this program as root, because only root can change the speed of fans.
 
-I personally recommend using "tpfc_start.sh", which will run ThinkPad Fan Control
+I personally recommend using "start.sh", which will run ThinkPad Fan Control
 
 under administrator privileges.
 
-Some System due to Desktop Environments would display an error.
+Example:
+
+        sudo ./start.sh
+        
+
+Start-Up Special Info
+--------------------
+
+Some System due to Desktop Environments Limitations would display an error.
 
 If so, you need to Configure to Allow SuperUser GUI Application
 
         xhost +local:
 
-(This MAY BE Required Everytime before Launching the Program)
+(This MAY BE REQUIRED Everytime before launching the program)
 
 I don't understand how to fix "tpfc_start-up.sh" 
 
