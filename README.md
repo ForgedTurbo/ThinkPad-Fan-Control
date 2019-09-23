@@ -66,10 +66,6 @@ There are a few steps you need to do, in order to control the fan speed with thi
         yum install libgnomeui-devel
 
 
-3. Configure to Allow SuperUser GUI Application
-
-        xhost +local:
-
 
 After these steps, reboot.
 
@@ -87,8 +83,15 @@ You must run this program as root, because only root can change the speed of fan
 
 I personally recommend using "tpfc_start.sh", which will run ThinkPad Fan Control
 
-with gksu under administrator privileges.
+under administrator privileges.
 
+Some System due to Desktop Environments would display an error.
+
+If so, you need to Configure to Allow SuperUser GUI Application
+
+        xhost +local:
+
+(This MAY BE Required Everytime before Launching the Program)
 
 I don't understand how to fix "tpfc_start-up.sh" 
 
