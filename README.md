@@ -15,9 +15,9 @@ You can find his original code on GitHub as well. Stanko/ThinkPad-Fan-Control
 The Original README File is available here as OLD-README.md
 
 
-This project is NOT in the Active Development
+Project is NOT in the Active Development
 ---------------------
-From my understanding, Stanko no longer uses a ThinkPad, therefore discontinued the project.
+The Original Creator: Stanko no longer uses a ThinkPad, therefore discontinued the project.
 
 On the other hand, I am no where close to being a Professional Dev.
 
@@ -25,7 +25,7 @@ And I only use my Old ThinkPad as an On-the-Go Laptop.
 
 The program is tested on ThinkPad T410s with Fedora 30
 
-You can ask me questions, but I may not be able to fix problems deeper into Stanko's Code.
+You can ask me questions, and I can give some suggestions, but I may not be able to fix problems deeper into Stanko's Code.
 
 I made these adjustments because the Original Code as of Sept. 20th 2019 no longer works due to changes in Linux.
 
@@ -41,7 +41,7 @@ Damages may include:
 
 Overheat Damage due to Incorrect Fan Speed Settings
 
-Damage to Cooling Fan due to Long Term Full Speed Operation
+Damage to Cooling Fan due to Long-Term Full-Speed Operation
 
 
 Use this program at YOUR OWN RISK!!
@@ -81,9 +81,7 @@ Start-Up
 ---------------------------------
 You must run this program as root, because only root can change the speed of fans.
 
-I personally recommend using "start.sh", which will run ThinkPad Fan Control
-
-under administrator privileges.
+I personally recommend using "start.sh", which will run ThinkPad Fan Control under administrator privileges.
 
 Example:
 
@@ -93,7 +91,7 @@ Example:
 Start-Up Special Info
 --------------------
 
-Some System due to Desktop Environments Limitations would display an error.
+Some System due to Desktop Environments Limitations would display an error. Example: GNOME Desktop Environment
 
 If so, you need to Configure to Allow SuperUser GUI Application
 
