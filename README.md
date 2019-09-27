@@ -67,7 +67,7 @@ There are a few steps you need to do, in order to control the fan speed with thi
         
         
         
- OR
+        OR
         
         apt-get install libgnomeui-devel
 
