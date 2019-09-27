@@ -64,6 +64,10 @@ There are a few steps you need to do, in order to control the fan speed with thi
 2. Install the GTK Development Libraries
 
         yum install libgnomeui-devel
+        
+        OR
+        
+        apt-get install libgnomeui-devel
 
 
 
