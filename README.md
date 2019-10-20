@@ -23,9 +23,9 @@ On the other hand, I am no where close to being a Professional Dev.
 
 And I only use my Old ThinkPad as an On-the-Go Laptop.
 
-The program is tested on ThinkPad T410s with Fedora 30
+The program is tested on ThinkPad T410s with Fedora 30 and CentOS 8.
 
-You can ask me questions, and I can give some suggestions, but I may not be able to fix problems deeper into Stanko's Code.
+You can ask me questions, and I can give some suggestions and instructions, but I may not be able to  deeper into Stanko's Code.
 
 I made these adjustments because the Original Code as of Sept. 20th 2019 no longer works due to changes in Linux.
 
@@ -51,6 +51,8 @@ Introduction
 This is program for controlling fans speed on IBM/Lenovo ThinkPads.
 
 It is written for Linux only. This program is written in C, using GTK GUI.
+
+Please run all commands under the folder of the program.
 
 Setup
 ---------------------
