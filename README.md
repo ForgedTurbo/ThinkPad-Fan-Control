@@ -135,5 +135,5 @@ Click the "Set Options Above" button
 
 
 
-I hope you enjoy using this :D
+I hope you enjoy using this :‑)
 
