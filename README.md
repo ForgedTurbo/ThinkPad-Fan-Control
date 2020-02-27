@@ -4,13 +4,13 @@ Version 0.5.1
 
 This is a Modified Version of Stanko's ThinkPad-Fan-Control Version 0.5.0
 
-Due to the Changes make to Linux over the 8 years since Stanko created this program
+Due to the Changes made to Linux over the 8 years since Stanko created this program
 
 The program launching script no longer works properly.
 
 Therefore I make some adjustments and Modifications.
 
-You can find his original code on GitHub as well. Stanko/ThinkPad-Fan-Control
+You can find his original code on GitHub as well. [Stanko/ThinkPad-Fan-Control](https://github.com/Stanko/ThinkPad-Fan-Control)
 
 The Original README File is available here as OLD-README.md
 
