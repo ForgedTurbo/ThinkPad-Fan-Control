@@ -23,7 +23,7 @@ On the other hand, I am no where close to being a Professional Dev.
 
 And I only use my Old ThinkPad as an On-the-Go Laptop.
 
-The program is tested on ThinkPad T410s with Fedora 30 and CentOS 8.
+The program is tested on ThinkPad T410s with Ubuntu 20.04 LTS
 
 You can ask me questions, and I can give some suggestions and instructions, but I may not be able to  deeper into Stanko's Code.
 
@@ -65,11 +65,9 @@ There are a few steps you need to do, in order to control the fan speed with thi
 
 2. Install the GTK Development Libraries
 
-        yum install libgnomeui-devel
         
-        OR
-        
-        apt-get install libgnomeui-devel
+        apt-get install gtk2.0
+        apt-get install libglade2-0
 
 
 
