@@ -67,7 +67,7 @@ There are a few steps you need to do, in order to control the fan speed with thi
 
         
         apt-get install gtk2.0
-        apt-get install libglade2-0
+        apt-get install libglade2-dev
 
 
 
